@@ -1,6 +1,6 @@
 # Bayesian Logistic Regression and LC50 Estimation
 
-Fit logistic curves and derive LC~50~'s from bottle bioassay data. I'm sticking with a log-link, mostly due to the simplicity/convenience of drawing posterior predictive distributions for LC~50~ values algebraically from the MCMC samples.  
+Fit logistic curves and derive LC<sub>50</sub>'s from bottle bioassay data. I'm sticking with a log-link, mostly due to the simplicity/convenience of drawing posterior predictive distributions for LC<sub>50</sub> values algebraically from the MCMC samples.  
 
 Currently, I'm leaning on BAMBI to compile the PyMC3 model and arviz for plotting. In next steps I'll be more deliberate with a STAN file or PyMC3 file, when the need for tuning becomes obvious, but the default priors given by BAMBI are good for now. 
 
